@@ -2,16 +2,24 @@
 
 A standalone, portable knowledge repository and ChatGPT Skill for the full-size **Range Rover L405**, centred on the **2013 Range Rover Vogue / Vogue SE** and launch-era **2013-2017** vehicles.
 
-This project is deliberately independent of any private organisation, memory system or connector. It can be cloned into a personal GitHub account and installed as a portable ChatGPT Skill.
+This project is deliberately independent of any private organisation, memory system or connector. It can be forked into another person's GitHub account and deployed as a portable ChatGPT Skill.
 
-## One-link deployment
+## Start here — Give this to your AI agent
+
+```text
+https://github.com/david-aicoach/range-rover-l405-owner-agent
+```
+
+That is the complete handoff. The agent should open the repository, read `AGENTS.md`, then follow [`BOOTSTRAP.md`](BOOTSTRAP.md) to fork, deploy and verify it. The human should not need to copy a longer setup prompt.
+
+## Manual links
 
 - **Repository:** https://github.com/david-aicoach/range-rover-l405-owner-agent
-- **Direct ChatGPT Skill ZIP:** https://github.com/david-aicoach/range-rover-l405-owner-agent/releases/latest/download/skill.zip
-- **Clone:** `git clone https://github.com/david-aicoach/range-rover-l405-owner-agent.git`
-- **Portable source Skill:** `range-rover-l405-owner-agent/`
+- **Bootstrap:** [BOOTSTRAP.md](BOOTSTRAP.md)
+- **Portable Skill package in source:** [`dist/skill.zip`](dist/skill.zip)
+- **Portable source Skill:** [`range-rover-l405-owner-agent/`](range-rover-l405-owner-agent/)
 
-For another ChatGPT account, download `dist/skill.zip` from the direct link and install/upload it as a Skill. For another GitHub account, fork the public repository or clone and push it unchanged.
+For a normal handoff, use only the repository URL above. The manual links are for operators who want to inspect or troubleshoot the deployment directly.
 
 ## What makes it different
 This is not an owner's-handbook chatbot and not a generic “common problems” list. It combines five layers:
@@ -98,6 +106,7 @@ A few examples of the type of information captured:
 
 ```text
 AGENTS.md
+BOOTSTRAP.md
 README.md
 SOURCES.md
 range-rover-l405-owner-agent/
@@ -161,7 +170,9 @@ python3 range-rover-l405-owner-agent/scripts/validate_catalog.py
 `query_issues.py` remains for fault-signature-only searches.
 
 ## Deployment
-Install the contents of `range-rover-l405-owner-agent/` as a ChatGPT Skill, or use the repository as retrieval/context material for another agent runtime. See `references/deployment.md`.
+For normal deployment, give the receiving AI agent only the repository URL from the start section. The agent then follows [`BOOTSTRAP.md`](BOOTSTRAP.md).
+
+For manual operation, install the contents of `range-rover-l405-owner-agent/` as a ChatGPT Skill, or use the repository as retrieval/context material for another agent runtime. See `range-rover-l405-owner-agent/references/deployment.md`.
 
 The Skill is designed for progressive loading: `SKILL.md` remains a control plane while deep electronics, features, DTCs and rare-knowledge material stays in one-level references/data files.
 
