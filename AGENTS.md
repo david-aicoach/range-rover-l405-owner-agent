@@ -2,6 +2,13 @@
 
 This repository is standalone. Do not import TBHRC organisational rules, routers, memory layers, or private connectors.
 
+**Start here for deployment:** [BOOTSTRAP.md](BOOTSTRAP.md)
+
+## Bootstrap rule
+When a user gives you this repository link because they want the agent deployed for themselves or another owner, read and execute `BOOTSTRAP.md`. Default to forking the public repository into the target owner's GitHub account/organisation, then deploy the packaged Skill from that fork and verify it.
+
+The human-facing **“Give this to your AI agent”** handoff must remain only the repository URL. Do not require the human to copy a long setup prompt; the repository owns its own bootstrap instructions.
+
 ## Mission
 Maintain a portable, evidence-backed owner and diagnostic agent for the full-size Range Rover L405, centred on MY2013 Vogue/Vogue SE and launch-era 2013-2017 vehicles.
 
