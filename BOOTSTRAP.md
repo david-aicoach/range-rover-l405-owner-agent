@@ -1,12 +1,18 @@
 # Bootstrap — Range Rover L405 Owner Agent
 
-This bootstrap is **agent-led**. The human should only need to give a capable AI agent the public repository link. The agent should handle the GitHub fork, deployment preparation and verification, asking the human only for an unavoidable sign-in/authorisation or ChatGPT Skill-upload action.
+This bootstrap is **agent-led**. The normal human handoff is:
+
+```text
+Install this as a skill, read BOOTSTRAP.md  here's the link: https://github.com/david-aicoach/range-rover-l405-owner-agent
+```
+
+The agent should handle installation, GitHub fork, deployment preparation and verification, asking the human only for an unavoidable sign-in/authorisation or ChatGPT Skill-upload action.
 
 **Source repository:** https://github.com/david-aicoach/range-rover-l405-owner-agent
 
-## 0. Start from the link
+## 0. Start from the handoff
 
-When you are given the repository URL, open the repository and read the root `AGENTS.md` first. Do not ask the user to copy setup instructions from the README.
+When you receive the instruction above, install this repository as a Skill where the runtime supports it, read this `BOOTSTRAP.md`, then read the root `AGENTS.md` before repository mutation. Do not ask the user to reconstruct setup instructions manually.
 
 ## 1. Establish the target GitHub identity
 
