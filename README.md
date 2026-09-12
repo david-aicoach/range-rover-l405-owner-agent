@@ -7,10 +7,10 @@ This project is deliberately independent of any private organisation, memory sys
 ## Start here — Give this to your AI agent
 
 ```text
-https://github.com/david-aicoach/range-rover-l405-owner-agent
+Install this as a skill, read BOOTSTRAP.md  here's the link: https://github.com/david-aicoach/range-rover-l405-owner-agent
 ```
 
-That is the complete handoff. The agent should open the repository, read `AGENTS.md`, then follow [`BOOTSTRAP.md`](BOOTSTRAP.md) to fork, deploy and verify it. The human should not need to copy a longer setup prompt.
+That is the complete handoff. The receiving agent should install the repository as a Skill, read [`BOOTSTRAP.md`](BOOTSTRAP.md), then follow the bootstrap to fork, deploy and verify the portable copy.
 
 ## Manual links
 
@@ -19,7 +19,7 @@ That is the complete handoff. The agent should open the repository, read `AGENTS
 - **Portable Skill package in source:** [`dist/skill.zip`](dist/skill.zip)
 - **Portable source Skill:** [`range-rover-l405-owner-agent/`](range-rover-l405-owner-agent/)
 
-For a normal handoff, use only the repository URL above. The manual links are for operators who want to inspect or troubleshoot the deployment directly.
+For a normal handoff, use the single instruction above. The manual links are for operators who want to inspect or troubleshoot the deployment directly.
 
 ## What makes it different
 This is not an owner's-handbook chatbot and not a generic “common problems” list. It combines five layers:
@@ -170,7 +170,7 @@ python3 range-rover-l405-owner-agent/scripts/validate_catalog.py
 `query_issues.py` remains for fault-signature-only searches.
 
 ## Deployment
-For normal deployment, give the receiving AI agent only the repository URL from the start section. The agent then follows [`BOOTSTRAP.md`](BOOTSTRAP.md).
+For normal deployment, give the receiving AI agent the exact instruction in the start section: install this as a Skill, read [`BOOTSTRAP.md`](BOOTSTRAP.md), then use the repository link.
 
 For manual operation, install the contents of `range-rover-l405-owner-agent/` as a ChatGPT Skill, or use the repository as retrieval/context material for another agent runtime. See `range-rover-l405-owner-agent/references/deployment.md`.
 
