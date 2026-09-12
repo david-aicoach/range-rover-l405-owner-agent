@@ -178,3 +178,25 @@ The Skill is designed for progressive loading: `SKILL.md` remains a control plan
 
 ## Copyright / source policy
 The repository does **not** redistribute complete copyrighted JLR owner or workshop manuals. It stores derived guidance, structured facts, citations/source links and diagnostic synthesis. Obtain full current JLR technical documents through official JLR/TOPIx/iGuide access where required.
+
+## The story behind this agent
+
+This agent Skill repository started while I was driving with a Range Rover owner who kept asking curious, practical questions about his car — how things worked, what warnings meant, what owners should know, what was hidden, what commonly goes wrong, and what people usually struggle to find online.
+
+Instead of answering those questions one at a time and letting the knowledge disappear into a chat, I started building him a reusable AI agent while we were still driving.
+
+**About 45 minutes later, I handed him V1.**
+
+Then I kept going: deeper research, electronics, features, hidden diagnostics, hard-won failure patterns, misdiagnosis traps, owner tricks, structured knowledge, portability, bootstrap, GitHub packaging and deployment.
+
+**Roughly three hours from the first question, the full portable agent repository was built and ready to fork, install and use.**
+
+That is the opportunity with Agentic AI: useful specialist agents do not always need to begin as long software projects. Start with a real problem, capture the expertise, structure the knowledge, prove it in use, and turn it into a portable capability.
+
+If you want the same approach for your business — turning your processes, expertise, documents, operating knowledge or workflows into deployable AI agents — contact us at **[iMPLEMENTAi.ae](https://implementai.ae/)**.
+
+**David Potgieter**  
+Founder — Agentic AI Consultant  
+**[iMPLEMENTAi.ae](https://implementai.ae/)**
+
+**Our flagship product:** [FolderDesk — Your Business AI Operating System](https://github.com/tbhrc/folderdesk)
