@@ -1,7 +1,19 @@
 # Portable deployment guide
 
+## Give this to your AI agent
+
+```text
+https://github.com/david-aicoach/range-rover-l405-owner-agent
+```
+
+That is the complete human handoff. The receiving agent should open the repository, read the root `AGENTS.md`, follow `BOOTSTRAP.md`, fork the repository into the target owner's GitHub account/organisation, deploy the packaged Skill from that fork, and verify the deployment.
+
+Do not make the human copy a longer setup prompt. The repository owns the bootstrap instructions so future bootstrap improvements remain durable at the same link.
+
 ## ChatGPT Skill deployment
-Upload the packaged `skill.zip` to the target ChatGPT Skill environment. No private connector is required.
+Use `dist/skill.zip` from the target owner's fork as the portable ChatGPT Skill package. No private connector is required.
+
+If the ChatGPT environment supports direct Skill upload/install, install it. If the platform requires the human to upload or enable the Skill, ask only for that unavoidable action and continue verification afterwards.
 
 Recommended capabilities:
 - web browsing for current JLR/TOPIx lookup;
@@ -30,4 +42,4 @@ Store only with the vehicle owner's permission:
 Do not store passwords, payment data, or unrelated personal data.
 
 ## Repo portability
-Keep the Skill self-contained and avoid TBHRC-specific paths, secrets, connectors or private assumptions. The source repository may use GitHub for versioning, but runtime operation must not depend on GitHub.
+Keep the Skill self-contained and avoid TBHRC-specific paths, secrets, connectors or private assumptions. The target owner's GitHub fork is the editable deployment copy. The uploaded ChatGPT Skill is a runtime copy, not the source of truth.
