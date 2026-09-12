@@ -7,7 +7,7 @@ This project is deliberately independent of any private organisation, memory sys
 ## One-link deployment
 
 - **Repository:** https://github.com/david-aicoach/range-rover-l405-owner-agent
-- **Direct ChatGPT Skill ZIP:** https://raw.githubusercontent.com/david-aicoach/range-rover-l405-owner-agent/main/dist/skill.zip
+- **Direct ChatGPT Skill ZIP:** https://github.com/david-aicoach/range-rover-l405-owner-agent/releases/latest/download/skill.zip
 - **Clone:** `git clone https://github.com/david-aicoach/range-rover-l405-owner-agent.git`
 - **Portable source Skill:** `range-rover-l405-owner-agent/`
 
