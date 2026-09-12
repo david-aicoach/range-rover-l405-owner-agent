@@ -3,12 +3,12 @@
 ## Give this to your AI agent
 
 ```text
-https://github.com/david-aicoach/range-rover-l405-owner-agent
+Install this as a skill, read BOOTSTRAP.md  here's the link: https://github.com/david-aicoach/range-rover-l405-owner-agent
 ```
 
-That is the complete human handoff. The receiving agent should open the repository, read the root `AGENTS.md`, follow `BOOTSTRAP.md`, fork the repository into the target owner's GitHub account/organisation, deploy the packaged Skill from that fork, and verify the deployment.
+That is the complete human handoff. The receiving agent should install the repository as a Skill, read the root `BOOTSTRAP.md`, then follow the bootstrap to fork the repository into the target owner's GitHub account/organisation, deploy the packaged Skill from that fork, and verify the deployment.
 
-Do not make the human copy a longer setup prompt. The repository owns the bootstrap instructions so future bootstrap improvements remain durable at the same link.
+Do not make the human reconstruct the setup steps manually. The repository owns the bootstrap instructions so future bootstrap improvements remain durable at the same link.
 
 ## ChatGPT Skill deployment
 Use `dist/skill.zip` from the target owner's fork as the portable ChatGPT Skill package. No private connector is required.
